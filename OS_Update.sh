@@ -18,7 +18,7 @@ check_exit_status() {
 
 # Creating if conditions to check the OS Version and upgrading the system based on the Distro present in the system.
 
-if grep -w "Ubuntu" $os_path || grep -w "Debian" $os_path
+if grep -qw "Ubuntu" $os_path || grep -w "Debian" $os_path
 then
 	echo "OS is based on Ubuntu/Debian. Upgrading using the apt command."
 	sudo apt update && sudo apt upgrade 1>>$log_file 2>>$error_file
