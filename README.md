@@ -1,7 +1,7 @@
 # VB-Bash_Scripts
 
 This repository contains Bash scripts that I created to practice and showcase my skills in shell scripting.
-Each script was written and tested by me, focusing on simple automation tasks and problem-solving.
+Each script was written and tested by me, focusing on simple automation tasks and problem-solving in Linux systems.
 
 # Scripts and Usage:
   - Memory_Monitor.sh - To get the processes consuming higher memory and report them using Warning messages.
@@ -17,10 +17,10 @@ Each script was written and tested by me, focusing on simple automation tasks an
 git clone https://github.com/vbaska3001/VB-Bash_Scripts.git
 cd VB-Bash_Scripts
 chmod +x script_name.sh
-./script_name.sh
+./script_name.sh or sh script_name.sh
  
 # My Contributions
 - Wrote all the scripts myself.
 - Used Bash commands, variables, loops, and condition checks.
-- Added logging, error messages, and validations where required.
-- Practiced automation tasks like backups and text processing.
+- Added logging, error messages, alerts and validations where required.
+- Practiced automation tasks like backups with timestamps and alerts on high memory usage.
